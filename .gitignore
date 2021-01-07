@@ -1,0 +1,11 @@
+#Folders
+/_in
+
+#Venv folders
+/Scripts
+/Lib
+/Include
+
+#Config and Cache Files
+**.cfg
+**.pyc
