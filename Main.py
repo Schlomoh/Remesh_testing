@@ -23,9 +23,11 @@ class OBJ_PL:
         self.target_sizes = target_sizes
         self.iso_para = iso_para
 
-        self.mesh = ml.MeshSet()
-        self.mesh.load_new_mesh(input)
-
+        try:
+            self.mesh = ml.MeshSet()
+            self.mesh.load_new_mesh(input)
+        except:
+            print("There's something very wrong with your input file selection...")
 
     def fs_estimation(self, file, target_sizes ):
 
