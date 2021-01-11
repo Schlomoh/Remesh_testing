@@ -41,6 +41,6 @@ When setting `action` to `'remesh'`, the default percentage for remesh simplific
 
 ###### For remeshing .obj by certain percentage run:
 ```
-python Main.py input/objects.obj remesh 30 
+python Main.py input/objects.obj remesh -d 30 
 ```
 
